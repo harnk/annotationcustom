@@ -45,7 +45,7 @@
     ann.subtitle = @"Surfing Beach";
     [self.mapView addAnnotation:ann];
     
-    [NSTimer scheduledTimerWithTimeInterval: 0.1
+    [NSTimer scheduledTimerWithTimeInterval: 5
                                      target: self
                                    selector: @selector(changeRegion)
                                    userInfo: nil
